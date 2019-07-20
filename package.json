@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "functions-framework --target=main"
+    "start": "functions-framework --target=main",
+    "ss": "node . --target=main",
+    "watch": "tsc -w ||"
   },
   "author": "",
   "license": "ISC",
