@@ -6,7 +6,7 @@
   "scripts": {
     "start": "functions-framework --target=main",
     "watch": "tsc -w",
-    "deploy": "gcloud functions deploy NAMEGOEHERE --runtime nodejs10 --trigger-http"
+    "deploy": "gcloud functions deploy NAMEGOEHERE --timeout 540s --project PROJECTID --runtime nodejs10 --trigger-http"
   },
   "author": "",
   "license": "ISC",
