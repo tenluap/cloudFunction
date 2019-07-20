@@ -11,8 +11,11 @@
             "name": "nodemon",
             "runtimeExecutable": "nodemon",
             "preLaunchTask": "watch",
+            "env": {
+                "NODE_ENV": "production",
+                "FUNCTION_TARGET": "main"
+            },
             "program": "${workspaceFolder}/node_modules/@google-cloud/functions-framework/build/src/index.js",
-            "args": ["--target=main"],
             "restart": true,
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"

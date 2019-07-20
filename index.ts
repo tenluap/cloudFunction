@@ -7,5 +7,3 @@ export let main = async (req?: Request, res?: Response) => {
 
 }
 
-
-

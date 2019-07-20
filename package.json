@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/error-reporting": "^1.1.1",
     "@google-cloud/functions-framework": "^1.2.0",
     "@google-cloud/storage": "^3.0.3",
     "@types/axios": "^0.14.0",
