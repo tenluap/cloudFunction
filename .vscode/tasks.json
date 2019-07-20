@@ -6,6 +6,7 @@
         "label": "watch",
         "type": "npm",
         "script": "watch",
-        "problemMatcher": []
+        "problemMatcher": ["$tsc-watch"],
+        "isBackground": true
     }]
 }

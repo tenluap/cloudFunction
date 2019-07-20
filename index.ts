@@ -1,8 +1,11 @@
 import { Request, Response } from 'express'
+import { auth } from './auth';
+auth()
 
-export let main = (req?: Request, res?: Response) => {
+export let main = async (req?: Request, res?: Response) => {
     // code here
 
 }
+
 
 

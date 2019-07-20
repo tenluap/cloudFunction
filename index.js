@@ -1,12 +1,16 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.main = (req, res) => {
-    // code here
-    let r = [{ name: 'ehigiepaul' }];
-    Array.from(r).forEach((rs) => {
-        rs;
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
-    // res.send(r[0])
-    res.send(process.argv);
 };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVXLFFBQUEsSUFBSSxHQUFHLENBQUMsR0FBYSxFQUFFLEdBQWMsRUFBRSxFQUFFO0lBQ2hELFlBQVk7SUFDWixJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsSUFBSSxFQUFFLFlBQVksRUFBRSxDQUFDLENBQUE7SUFDaEMsS0FBSyxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUMsQ0FBQyxPQUFPLENBQUMsQ0FBQyxFQUFFLEVBQUUsRUFBRTtRQUN6QixFQUFFLENBQUE7SUFDTixDQUFDLENBQUMsQ0FBQTtJQUVGLGlCQUFpQjtJQUVqQixHQUFHLENBQUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxJQUFJLENBQUMsQ0FBQTtBQUcxQixDQUFDLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBSZXF1ZXN0LCBSZXNwb25zZSB9IGZyb20gJ2V4cHJlc3MnXHJcblxyXG5leHBvcnQgbGV0IG1haW4gPSAocmVxPzogUmVxdWVzdCwgcmVzPzogUmVzcG9uc2UpID0+IHtcclxuICAgIC8vIGNvZGUgaGVyZVxyXG4gICAgbGV0IHIgPSBbeyBuYW1lOiAnZWhpZ2llcGF1bCcgfV1cclxuICAgIEFycmF5LmZyb20ocikuZm9yRWFjaCgocnMpID0+IHtcclxuICAgICAgICByc1xyXG4gICAgfSlcclxuXHJcbiAgICAvLyByZXMuc2VuZChyWzBdKVxyXG5cclxuICAgIHJlcy5zZW5kKHByb2Nlc3MuYXJndilcclxuXHJcblxyXG59XHJcblxyXG5cclxuIl19
+Object.defineProperty(exports, "__esModule", { value: true });
+const auth_1 = require("./auth");
+auth_1.auth();
+exports.main = (req, res) => __awaiter(this, void 0, void 0, function* () {
+    // code here
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQ0EsaUNBQThCO0FBQzlCLFdBQUksRUFBRSxDQUFBO0FBRUssUUFBQSxJQUFJLEdBQUcsQ0FBTyxHQUFhLEVBQUUsR0FBYyxFQUFFLEVBQUU7SUFDdEQsWUFBWTtBQUVoQixDQUFDLENBQUEsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJlcXVlc3QsIFJlc3BvbnNlIH0gZnJvbSAnZXhwcmVzcydcclxuaW1wb3J0IHsgYXV0aCB9IGZyb20gJy4vYXV0aCc7XHJcbmF1dGgoKVxyXG5cclxuZXhwb3J0IGxldCBtYWluID0gYXN5bmMgKHJlcT86IFJlcXVlc3QsIHJlcz86IFJlc3BvbnNlKSA9PiB7XHJcbiAgICAvLyBjb2RlIGhlcmVcclxuXHJcbn1cclxuXHJcblxyXG5cclxuIl19

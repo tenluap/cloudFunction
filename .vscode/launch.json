@@ -11,11 +11,9 @@
             "name": "nodemon",
             "runtimeExecutable": "nodemon",
             "preLaunchTask": "watch",
-            "autoAttachChildProcesses": true,
-
             "program": "${workspaceFolder}/node_modules/@google-cloud/functions-framework/build/src/index.js",
             "args": ["--target=main"],
-            "restart": false,
+            "restart": true,
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
         }
